@@ -1,3 +1,7 @@
+## File Information
+
+AMZ.CSV : Air mass zero (out of atmosphere) spectrum   # by NREL
+
 # Shockley-Queisser Limit Calculator
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/evcka/sq-limit/master)
 
