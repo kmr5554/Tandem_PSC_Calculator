@@ -1,33 +1,41 @@
-## File Information
+## Shockley-Queisser Limit Calculator - Modified Version
 
-AMZ.CSV : Air mass zero (out of atmosphere) spectrum   # by NREL
+This repository contains my modified version of the Shockley-Queisser Limit Calculator, a Jupyter notebook originally designed for calculating the detailed balance limit for the efficiency of a single-junction solar cell. The original concept was published by William Shockley and Hans J. Queisser in 1961.
 
-# Shockley-Queisser Limit Calculator
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/evcka/sq-limit/master)
+### Modifications and Enhancements
 
-Jupyter notebook recreting the calculations done by William Schockley and Hans J. Queisser for the detailed balance limit for the efficiency of a single junction solar cell. Originally published in 1961. 
+Based on the original Mathematica script by Steve Byrnes, available at [Steve Byrnes's SQ Calculator](http://sjbyrnes.com/sq.pdf), my version of this notebook includes several modifications and enhancements, aiming to expand its functionality and improve user experience. Key modifications include:
 
-Based heavily on the Mathematica script by Steve Byrnes, original available here: http://sjbyrnes.com/sq.pdf. 
+- Streamlined data processing algorithms.
+- Enhanced visualization features using `matplotlib`.
+- Extended calculations for lower irradiances and alternative light sources beyond the sun.
 
-The notebook goes through calculating the SQ limit for the standard ASTM G173 AM1.5 spectrum, with most of the difficult explanations taken from Steve's document. 
+### Original Project Acknowledgment
 
-Further notebook sections look recalculate the detailed balance limit for lower irradiances, and for light sources other than the sun. 
+I would like to acknowledge the original work from which this project is derived. The initial script and methodology were heavily inspired by Steve Byrnes's Mathematica script. The original notebook focused on the ASTM G173 AM1.5 spectrum, and much of the detailed explanations were sourced from Steve's document. For more information on the original work, please refer to [Steve Byrnes's SQ Calculator](http://sjbyrnes.com/sq.pdf).
 
-## Instructions
+### Local Setup
 
-### Binder
-You can launch an interactive version of the notebook using Binder: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/evcka/sq-limit/master)
+To use this modified version of the Shockley-Queisser Limit Calculator, ensure you have Jupyter notebook installed. 
 
-### Local
-Make sure you have the Jupyter notebook installed.
+The project has been tested with the following library versions:
 
-Tested with the following:
+* Numpy version: 1.24.3
+* Scipy version: 1.10.1
+* Matplotlib version: 3.7.1
+* Pandas version: 2.1.3 (Optional)
 
-* Python 2.7
-* matplotlib 2.1.0
-* numpy 1.13.3
-* scipy 1.0.0
+You can install the required packages using:
 
-Install using
+```bash
+pip install -r requirements.txt
+```
 
-`pip2 install requirements.txt`
+### Usage
+
+To run the notebook:
+
+1. Clone this repository to your local machine.
+2. Navigate to the cloned directory.
+3. Run `jupyter notebook` to start the Jupyter notebook server.
+4. Open the Shockley-Queisser Limit Calculator notebook from the server interface.
