@@ -1,6 +1,8 @@
 ## Shockley-Queisser Limit Calculator - Modified Version
 
-This repository contains my modified version of the Shockley-Queisser Limit Calculator, a Jupyter notebook originally designed for calculating the detailed balance limit for the efficiency of a single-junction solar cell. The original concept was published by William Shockley and Hans J. Queisser in 1961. This project is a collaborative effort between kmr5554@snu.ac.kr and himoon8805@snu.ac.kr
+This repository contains my modified version of the Shockley-Queisser Limit Calculator, a Jupyter notebook originally designed for calculating the detailed balance limit for the efficiency of a single-junction solar cell. The original concept was published by William Shockley and Hans J. Queisser in 1961.
+
+This project is a collaborative effort between [kmr5554](https://github.com/kmr5554) and [himoon8805](https://github.com/himoon8805)
 
 ### Modifications and Enhancements
 
