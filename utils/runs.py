@@ -12,7 +12,7 @@ def analyze_spectrum():
     module_dir = os.getcwd()+os.sep
     
     # AMZ : AM zero condition / ASTMG173 : Earth standard condition
-    mode=['AMZ.CSV' ,'ASTMG173.csv']
+    mode=['AMZ.csv' ,'ASTMG173.csv']
     spectrumS = np.loadtxt(module_dir + mode[0], delimiter=',', skiprows=1)
     spectrumE = np.loadtxt(module_dir + mode[1], delimiter=',', skiprows=1)
 
