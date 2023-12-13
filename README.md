@@ -1,5 +1,5 @@
 <p float="left">
-  <img src="img/space.png" width="400" />
+  <img src="img/Space.png" width="400" />
   <img src="img/TSC.png" width="400" /> 
 </p>
 
