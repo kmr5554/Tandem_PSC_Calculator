@@ -3,7 +3,7 @@
   <img src="img/TSC.png" width="300" />
 </p>
 
-## Shockley-Queisser Limit Calculator - Modified Version
+# :bulb: Shockley-Queisser Limit Calculator - Modified Version
 
 This repository contains my modified version of the Shockley-Queisser Limit Calculator, a Jupyter notebook originally designed for calculating the detailed balance limit for the efficiency of a single-junction solar cell. The original concept was published by William Shockley and Hans J. Queisser in 1961.
 
@@ -13,15 +13,15 @@ This project is a collaborative effort between [kmr5554](https://github.com/kmr5
 
 Based on the original Mathematica script by Steve Byrnes, available at [Steve Byrnes's SQ Calculator](link-to-original-calculator), my version of this notebook includes several modifications and enhancements, aiming to expand its functionality and improve user experience. Key modifications include:
 
-- Streamlined data processing algorithms.
-- Enhanced visualization features using matplotlib.
-- Extended calculations for lower irradiances and alternative light sources beyond the sun.
+- :rocket: Streamlined data processing algorithms.
+- :art: Enhanced visualization features using matplotlib.
+- :stars: Extended calculations for space and tandem solar cells.
 
-## Original Project Acknowledgment
+## :trophy: Original Project Acknowledgment
 
 I would like to acknowledge the original work from which this project is derived. The initial script and methodology were heavily inspired by Steve Byrnes's Mathematica script. The original notebook focused on the ASTM G173 AM1.5 spectrum, and much of the detailed explanations were sourced from Steve's document. For more information on the original work, please refer to [Steve Byrnes's SQ Calculator](link-to-original-calculator).
 
-## Data Source Acknowledgment
+## :scroll: Data Source Acknowledgment
 
 The spectral data files `AMZ.csv` and `ASTMG173.csv` are sourced from the National Renewable Energy Laboratory (NREL). `AMZ.csv` represents the solar spectrum in space, while `ASTMG173.csv` corresponds to the Earth’s AM1.5 spectrum. These files are crucial for the analysis of solar cell efficiency under different environmental conditions.
 
@@ -33,7 +33,7 @@ The project is organized as follows:
 - `main.py` and the `utils/` directory (`util.py` and `runs.py`): Consist of the core functionality and calculations.
 - `Calculator_Demo.ipynb`: Demonstrates how to run the program in a Colab local environment.
 
-## :rocket: Local Setup
+## :gear: Local Setup
 
 To use this modified version of the Shockley-Queisser Limit Calculator, ensure you have Jupyter notebook installed.
 
