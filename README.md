@@ -9,7 +9,7 @@ This repository contains my modified version of the Shockley-Queisser Limit Calc
 
 This project is a collaborative effort between [kmr5554](https://github.com/kmr5554) and [himoon8805](https://github.com/himoon8805)
 
-## Modifications and Enhancements
+## :hammer_and_wrench: Modifications and Enhancements
 
 Based on the original Mathematica script by Steve Byrnes, available at [Steve Byrnes's SQ Calculator](link-to-original-calculator), my version of this notebook includes several modifications and enhancements, aiming to expand its functionality and improve user experience. Key modifications include:
 
@@ -25,7 +25,7 @@ I would like to acknowledge the original work from which this project is derived
 
 The spectral data files `AMZ.csv` and `ASTMG173.csv` are sourced from the National Renewable Energy Laboratory (NREL). `AMZ.csv` represents the solar spectrum in space, while `ASTMG173.csv` corresponds to the Earth’s AM1.5 spectrum. These files are crucial for the analysis of solar cell efficiency under different environmental conditions.
 
-## Project Structure
+## :file_folder: Project Structure
 
 The project is organized as follows:
 
@@ -33,7 +33,7 @@ The project is organized as follows:
 - `main.py` and the `utils/` directory (`util.py` and `runs.py`): Consist of the core functionality and calculations.
 - `Calculator_Demo.ipynb`: Demonstrates how to run the program in a Colab local environment.
 
-## Local Setup
+## :rocket: Local Setup
 
 To use this modified version of the Shockley-Queisser Limit Calculator, ensure you have Jupyter notebook installed.
 
@@ -50,7 +50,7 @@ You can install the required packages using:
 pip install -r requirements.txt
 ```
 
-## Usage
+## :computer: Usage
 
 To run the notebook:
 
