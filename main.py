@@ -6,7 +6,7 @@ spectrumS, spectrumE = analyze_spectrum()
 # Analyze Single PSC
 Tcell = float(input("Enter cell temperature (in Kelvin): "))
 Egap = float(input("Enter energy gap for single PSC (in eV): "))
-#calc_single_PSC(Egap, Tcell, spectrumS, spectrumE)
+calc_single_PSC(Egap, Tcell, spectrumS, spectrumE)
 
 # Calculate Tandem PSC
 Egap_min = float(input("Enter minimum bandgap for tandem PSC (in eV): "))
