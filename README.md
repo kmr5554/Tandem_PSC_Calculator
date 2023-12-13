@@ -16,6 +16,10 @@ Based on the original Mathematica script by Steve Byrnes, available at [Steve By
 
 I would like to acknowledge the original work from which this project is derived. The initial script and methodology were heavily inspired by Steve Byrnes's Mathematica script. The original notebook focused on the ASTM G173 AM1.5 spectrum, and much of the detailed explanations were sourced from Steve's document. For more information on the original work, please refer to [Steve Byrnes's SQ Calculator](link-to-original-calculator).
 
+## Data Source Acknowledgment
+
+The spectral data files `AMZ.csv` and `ASTMG173.csv` are sourced from the National Renewable Energy Laboratory (NREL). `AMZ.csv` represents the solar spectrum in space, while `ASTMG173.csv` corresponds to the Earth’s AM1.5 spectrum. These files are crucial for the analysis of solar cell efficiency under different environmental conditions.
+
 ## Project Structure
 
 The project is organized as follows:
