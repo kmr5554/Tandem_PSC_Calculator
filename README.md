@@ -1,5 +1,7 @@
-![Space View](img/Space.png)
-![TSC View](img/TSC.png)
+<p float="left">
+  <img src="img/space.png" width="400" />
+  <img src="img/TSC.png" width="400" /> 
+</p>
 
 ## Shockley-Queisser Limit Calculator - Modified Version
 
