@@ -1,5 +1,6 @@
 <p float="left">
-  <img src="img/Space.png" width="400" />
+  <img src="img/Space.png" width="300" />
+  <img src="img/TSC.png" width="300" />
 </p>
 
 ## Shockley-Queisser Limit Calculator - Modified Version
