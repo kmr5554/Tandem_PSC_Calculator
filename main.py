@@ -1,5 +1,11 @@
 from utils.runs import *
+import sys
+import matplotlib
 
+if 'ipykernel' in sys.modules:
+    # IPython 환경이라면 inline 백엔드 사용
+    matplotlib.use('module://ipykernel.pylab.backend_inline')
+    
 # Spectrum Comparison
 spectrumS, spectrumE = analyze_spectrum()
 
