@@ -1,21 +1,29 @@
 from .util import *
 
 #def main(Tcell, Egap, Egap_min, Egap_max):
-def analyze_spectrum():
+def analyze_spectrum(spectrum=None):
     # Tcell : Temperature (kelvin)
     # Egap : electron volts for single PSC (cf. silicon 1.1eV)
     # Egap_min : minimum electron volts to test for tandem solar cell
     # Egap_max : maximum electron volts to test for tandem solar cell
-    
-    print(os.getcwd())    
+    if not spectrum:
+        print(os.getcwd())    
 
-    module_dir = os.getcwd()+os.sep
+        module_dir = os.getcwd()+os.sep
+        
+        # AMZ : AM zero condition / ASTMG173 : Earth standard condition
+        mode=['AMZ.csv' ,'ASTMG173.csv']
+        spectrumS = np.loadtxt(module_dir + mode[0], delimiter=',', skiprows=1)
+        spectrumE = np.loadtxt(module_dir + mode[1], delimiter=',', skiprows=1)
     
-    # AMZ : AM zero condition / ASTMG173 : Earth standard condition
-    mode=['AMZ.csv' ,'ASTMG173.csv']
-    spectrumS = np.loadtxt(module_dir + mode[0], delimiter=',', skiprows=1)
-    spectrumE = np.loadtxt(module_dir + mode[1], delimiter=',', skiprows=1)
-
+    if spectrum:
+        module_dir = os.getcwd()+os.sep
+        
+        # AMZ : AM zero condition / ASTMG173 : Earth standard condition
+        mode=['AMZ.csv' ,'ASTMG173.csv']
+        spectrumS = np.loadtxt(module_dir + mode[0], delimiter=',', skiprows=1)
+        spectrumE = spectrum
+        
     pd_S = pd.DataFrame(spectrumS, columns = ['Wavelength(nm)', 'Irradiance'])
     print('\nAMZ.CSV File Contents\n\n',pd_S[:5])
 

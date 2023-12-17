@@ -3,6 +3,7 @@ import argparse
 from utils.runs import *    
 
 parser = argparse.ArgumentParser(description="Run tandem solar cell efficiency analysis.")
+parser.add_argument('--spectrum', default = None, help="Solar Spectrum Data", required=False)
 parser.add_argument('--Tcell', type=float, help="Cell temperature in Kelvin", required=True)
 parser.add_argument('--Egap', type=float, help="Energy gap for single PSC in eV", required=True)
 parser.add_argument('--Egap_min', type=float, help="Minimum bandgap for tandem PSC in eV", required=True)
